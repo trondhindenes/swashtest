@@ -1,0 +1,7 @@
+{ 
+	"CollectionName": "Collection 1",
+	"DefaultGitIdentifier": "master",
+	"GitRepositoryUrl": "http:/some.git/repo.git",
+	"PullBeforeExecution": true,
+	"PrivacyLevel": "private"
+}

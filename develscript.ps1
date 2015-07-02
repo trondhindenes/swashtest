@@ -1,2 +1,2 @@
 $guid = [system.guid]::NewGuid().ToString()
-set-content -path "D:\trond.hindenes\Documents\Projects-VS2013\swashtest\$guid.txt" -Value $MyInvocation.MyCommand.Path.ToString()
+Set-Content -Path "D:\trond.hindenes\Documents\Projects-VS2013\swashtest\$guid.txt" -Value ((get-date).ToString()) -Force
